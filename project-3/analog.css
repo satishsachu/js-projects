@@ -103,20 +103,20 @@ body{
 
 .sec{
   background-color: red;
-  width: 3px;
+  width: 2px;
   height: 40%;
 }
 
 
 .min{
   background-color: gray;
-  width: 7px;
+  width: 6px;
   height: 35%;
 }
 
 
 .hrs{
   background-color:black;
-  width: 8px;
-  height: 35%;
+  width: 10px;
+  height: 30%;
 }
