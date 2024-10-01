@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.824)),url(digital.jpg);
+    color: aliceblue;
+}
+.digital{
+    margin-top: -40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    border: 50% solid whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+
+}
+ .frame {
+    display: flex;
+    
+
+}
+.clock
+{
+    padding: 5px;
+    font-size: 20px;
+}
+p{
+    padding: 5px;
+    font-size: 20px;
+
+}
+@media (min-width:560px) {
+       
+   .digital{
+    font-size: 18px;
+   }
+    .clock{
+        font-size: 30px;
+    }
+    p{
+        font-size:30px ;
+    }
+}
+@media (min-width:768px) {
+    .digital
+    {
+        font-size: 40px;
+       }
+       .clock{
+        font-size: 40px;
+    }
+    p{
+        font-size:40px ;
+    }
+    
+}
